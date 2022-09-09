@@ -27,11 +27,14 @@ int main(void)
 			{
 				if (j < 56)
 				{
-					l = ++j + 1; k = i;
+					l = ++j + 1; 
+					k = i;
 				}
 				else if (j == 56)
 				{
-					j = 48; l = 49; k = ++i;
+					j = 48; 
+					l = 49; 
+					k = ++i;
 				}
 			}
 			else if (l < 57)
@@ -40,7 +43,8 @@ int main(void)
 			}
 			else
 			{
-				l = 48; k++;
+				l = 48; 
+				k++;
 			}
 		}
 	}
